@@ -18,7 +18,7 @@ if( numeroUsuario === numeroSecreto ){
 } else {
     //el usuario no acerto 
     if(numeroUsuario > numeroSecreto) {
-         asignarTextoElemento('p','El numeros ecreto es menor');
+         asignarTextoElemento('p','El numeros secreto es menor');
     }else {
         asignarTextoElemento('p','El numero secreto es mayor')
     }
@@ -66,4 +66,5 @@ function reinciarJuego(){
     document.querySelector('#reiniciar').setAttribute('disabled', 'true');
 
 }
+
  condicionesInciales();
